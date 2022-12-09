@@ -5,6 +5,7 @@
 - +48 600 636 113
 - <fiodar.bardziuhou@gmail.com>
 - GitHub: [@fiodarbardziuhou](https://github.com/fiodarbardziuhou/)
+- LinkedIn: [/fiodarbardziuhou](https://www.linkedin.com/in/fiodarbardziuhou/)
 
 ## About me
 
