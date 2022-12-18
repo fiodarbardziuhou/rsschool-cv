@@ -1,0 +1,93 @@
+body {
+  font-family: sans-serif;
+}
+
+a {
+  color: black;
+}
+
+.intro {
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+}
+
+#logo-top{
+  width: 120px;
+  float: left;
+  margin-left: 160px;
+}
+
+nav ul {
+  margin: 80px 160px 0px 160px;
+  padding: 0px;
+  text-align: right;
+}
+
+nav ul li { 
+  display: inline;
+  font-family: sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+#menu-item {
+  padding-left: 20px;
+}
+
+#menu-item a {
+  text-decoration: none;
+  font-size: larger;
+}
+
+.hero-text {
+  font-family: sans-serif;
+  font-size: xx-large;
+  margin: 80px 160px 80px 160px;
+  color: rgb(15, 15, 15);
+}
+
+.hero-text h1 {
+  margin: 16px 0px;
+  padding: 0px;
+}
+
+.hero-text h5 {
+  margin: 16px 0px;
+  padding: 0px;
+}
+
+#personal-photo {
+  width: 264px;
+	display: block;
+	margin: 0px;
+  float:right;
+}
+
+.section-block {
+  padding: 0px;
+  margin: 160px 160px 80px 160px;
+}
+
+.content-block {
+  width: 400px;
+  margin: 80px 0px;
+}
+
+.content-block li {
+  line-height: 1.5;
+}
+
+.content-block p {
+  line-height: 1.5;
+}
+
+
+.grey-background {
+  background-color: gainsboro;
+}
+
+.footer {
+  background-color: darkgrey;
+  padding: 80px 0px;
+}
