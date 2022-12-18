@@ -2,10 +2,20 @@ body {
   font-family: sans-serif;
 }
 
+a {
+  color: black;
+}
+
 .intro {
   position: relative;
   padding: 0px;
   margin: 0px;
+}
+
+#logo-top{
+  width: 120px;
+  float: left;
+  margin-left: 160px;
 }
 
 nav ul {
@@ -19,7 +29,7 @@ nav ul li {
   font-family: sans-serif;
   padding: 0px;
   margin: 0px;
-  }
+}
 
 #menu-item {
   padding-left: 20px;
@@ -52,9 +62,32 @@ nav ul li {
 	display: block;
 	margin: 0px;
   float:right;
-	}
+}
 
-.personal {
+.section-block {
   padding: 0px;
-  margin: 80px 160px 80px 160px;
+  margin: 160px 160px 80px 160px;
+}
+
+.content-block {
+  width: 400px;
+  margin: 80px 0px;
+}
+
+.content-block li {
+  line-height: 1.5;
+}
+
+.content-block p {
+  line-height: 1.5;
+}
+
+
+.grey-background {
+  background-color: gainsboro;
+}
+
+.footer {
+  background-color: darkgrey;
+  padding: 80px 0px;
 }

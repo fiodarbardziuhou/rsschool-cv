@@ -2,22 +2,23 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Website</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-  </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Website</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
   
   <body>
     <main>
       <div class="intro">
         <header>
           <nav>
+            <img src="https://app.rs.school/static/images/logo-rsschool3.png" alt="RSS School logo" id="logo-top">
             <ul>
-              <li id="menu-item"><a href="#Personal">Personal</a></li>
-              <li id="menu-item"><a href="#Experience">Experience</a></li>
+              <li id="menu-item"><a href="#personal">About me</a></li>
+              <li id="menu-item"><a href="#experience">Skills</a></li>
             </ul>
           </nav>
         </header>
@@ -32,79 +33,103 @@
       </div>
       
       
-      
-      <section class="personal">
-        <h2>Personal Information</h2>
-        <div> <!--Add style .personal-info-->
+      <section class="section-block">
+        <h2 id="personal">Personal Information</h2>
+        <article class="content-block">
           <h3>About Me</h3>
           <p>
-            Asdasdasd asd asdasd asdasdasd asdasd sdsd
-            Asdasdasd asdasd asd asdasd asd asdasd asd 
-            asdasd asdasd asda asdasd asdasd asdasdasd
-            asd asd asdasd asdasd asdasd asd
+            I have over 4 years experience as a freelancer, developing visual assets for websites and high-resolution Figma prototypes for startups and small businesses. I aspire to become a frontend developer to be able to translate designs into real working products.
           </p>
-        </div>
+        </article>
 
-        <div> <!--Add style .Contacts with width-->
+        <article class="content-block">
           <h3>Contacts</h3>
             <ul>
-              <li>Phone</li>
-              <li>Email</li>
-              <li>Messager</li>
+              <li>+48 600 636 113</li>
+              <li>fiodar.bardziuhou@gmail.com</li>
             </ul>
-        </div>
+        </article>
       </section>
 
 
-      <h2 id="Experience">My experience</h2>
-      <section>
-        <h3>Skills</h3>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JS</li>
-          </ul>
-      </section>
-      <section>
-        <h3>Education</h3>
+      <section class="section-block">
+        <h2 id="experience">My skills</h2>
+        <article class="content-block">
+          <h3>My strength</h3>
+            <ul>
+              <li>Quick Learner</li>
+              <li>Problem Solver</li>
+              <li>Team Player</li>
+            </ul>
+        </article>
+
+        <article class="content-block">
+          <h3>Software & Technologies I use:</h3>
+            <ul>
+              <li>Visual Studio Code</li>
+              <li>Git/GitHub</li>
+              <li>HTML, CSS, JavaScript - learning process </li>
+              <li>Adobe Photoshop, Illustrator</li>
+              <li>Figma</li>
+            </ul>
+        </article>
+
+        <article class="content-block">
+          <h3>Education</h3>
           <p>
-            Asdasdasd asd asdasd asdasdasd asdasd sdsd
-            Asdasdasd asdasd asd asdasd asd asdasd asd 
-            asdasd asdasd asda asdasd asdasd asdasdasd
-            asd asd asdasd asdasd asdasd asd
+            Belarusian Trade-Economic University of Consumer Cooperation
+            </br> <i>Management of Information Resources</i>
           </p>
+        </article>
+
+        <article class="content-block">
           <h3>Courses</h3>
           <ul>
             <li>RSS School</li>
             <li>HTML Beginner</li>
             <li>CSS Beginner</li>
           </ul>
-      </section>
-      <section>
-        <h3>Code example</h3>
-          <pre>
+        </article>
+        
+        <article class="content-block">
+          <h3>Code example</h3>
+          <pre class="grey-background">
             <code>
-            Asdasdasd asd asdasd asdasdasd asdasd sdsd
-            Asdasdasd asdasd asd asdasd asd asdasd asd 
-            asdasd asdasd asda asdasd asdasd asdasdasd
-            asd asd asdasd asdasd asdasd asd
+    function compose() {
+      let funcs = Array.from(arguments);
+      return function (x) {
+        if (funcs.length 	< 1) return x;
+        let f = funcs[funcs.length - 1](x);
+        for (let i = funcs.length - 2; i ≥ 0; i--) {
+          f = funcs[i](f);
+        }
+        return f;
+      };
+    }
             </code>
           </pre>
+        </article>
+        
+        <article class="content-block">
+          <h3>Languages</h3>
+          <ul>
+            <li>English - B2</li>
+            <li>Polish - B1</li>
+            <li>Belarussian - Native</li>
+            <li>Russian - Native</li>
+          </ul>
+        </article>
       </section>
-      <h3>Languages</h3>
-      <section>
-        <ul>
-          <li>English - B2</li>
-          <li>Polish - B1</li>
-          <li>Belarussian - Native</li>
-          <li>Russian - Native</li>
-        </ul>
-      </section>
+      
+      <footer class="footer">
+        <a href="https://github.com/fiodarbardziuhou">
+          <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png" alt="GitHub/fiodarbardziuhou" id="logo-top">
+        </a>
+        <a href="https://rs.school/">
+          <img src="https://app.rs.school/static/images/logo-rsschool3.png" alt="RSS School logo" id="logo-top">
+        </a>
+      </footer>
+      <script src="index.js"></script>
     </main>
-    <footer>
-      <img src="#" alt="GitHub/fiodarbardziuhou"><!--link to my github-->
-      <img src="#" alt="RSS School"><!--link to RSS SCHOOl-->
-    </footer>
-	  <script src="index.js"></script>
   </body>
 </html>
