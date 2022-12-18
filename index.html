@@ -6,47 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Website</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
   </head>
   
   <body>
-    <header>
-      <nav>
-        <ul> <!--Add landing links to each section insted #-->
-          <li><a href="#">Personal</a></li>
-          <li><a href="#">Experience</a></li>
-        </ul>
-      </nav>
-    </header>
-
     <main>
-      <section> <!--Add block style .first-screen-->
-        <h1>Hello, <br>I'm Fiodar <br>Bardziuhou</h1>
-        <h3>RSS School student</h3>
-        <img src="#" alt="My photo"> <!--Add img css style .myphoto-->
+      <div class="intro">
+        <header>
+          <nav>
+            <ul>
+              <li id="menu-item"><a href="#Personal">Personal</a></li>
+              <li id="menu-item"><a href="#Experience">Experience</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div class="hero-text">
+          <img src="img/photo.jpg" alt="My photo" id="personal-photo">
+          <h1>Hello, 
+            <br>I'm Fiodar 
+            <br>Bardziuhou
+          </h1>
+          <h5>RSS School student</h5>
+        </div>
+      </div>
+      
+      
+      
+      <section class="personal">
+        <h2>Personal Information</h2>
+        <div> <!--Add style .personal-info-->
+          <h3>About Me</h3>
+          <p>
+            Asdasdasd asd asdasd asdasdasd asdasd sdsd
+            Asdasdasd asdasd asd asdasd asd asdasd asd 
+            asdasd asdasd asda asdasd asdasd asdasdasd
+            asd asd asdasd asdasd asdasd asd
+          </p>
+        </div>
+
+        <div> <!--Add style .Contacts with width-->
+          <h3>Contacts</h3>
+            <ul>
+              <li>Phone</li>
+              <li>Email</li>
+              <li>Messager</li>
+            </ul>
+        </div>
       </section>
 
-      <h2>Personal Information</h2>
-      <section> <!--Add style .personal-info-->
-        <h3>About Me</h3>
-        <p>
-          Asdasdasd asd asdasd asdasdasd asdasd sdsd
-          Asdasdasd asdasd asd asdasd asd asdasd asd 
-          asdasd asdasd asda asdasd asdasd asdasdasd
-          asd asd asdasd asdasd asdasd asd
-        </p>
-      </section>          
-      <section> <!--Add style .Contacts with width-->
-        <h3>Contacts</h3>
-          <ul>
-            <li>Phone</li>
-            <li>Email</li>
-            <li>Messager</li>
-          </ul>
-      </section>
 
-      <h2>My experience</h2>
+      <h2 id="Experience">My experience</h2>
       <section>
         <h3>Skills</h3>
           <ul>

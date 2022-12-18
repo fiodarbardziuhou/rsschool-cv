@@ -1,9 +1,60 @@
 body {
-    background-color: rgb(252, 252, 252);
+  font-family: sans-serif;
+}
+
+.intro {
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav ul {
+  margin: 80px 160px 0px 160px;
+  padding: 0px;
+  text-align: right;
+}
+
+nav ul li { 
+  display: inline;
+  font-family: sans-serif;
+  padding: 0px;
+  margin: 0px;
   }
-  h1 {
-    color: rgb(15, 15, 15);
-  }
-  p {
-    color: rgb(32, 32, 32);
-  }
+
+#menu-item {
+  padding-left: 20px;
+}
+
+#menu-item a {
+  text-decoration: none;
+  font-size: larger;
+}
+
+.hero-text {
+  font-family: sans-serif;
+  font-size: xx-large;
+  margin: 80px 160px 80px 160px;
+  color: rgb(15, 15, 15);
+}
+
+.hero-text h1 {
+  margin: 16px 0px;
+  padding: 0px;
+}
+
+.hero-text h5 {
+  margin: 16px 0px;
+  padding: 0px;
+}
+
+#personal-photo {
+  width: 264px;
+	display: block;
+	margin: 0px;
+  float:right;
+	}
+
+.personal {
+  padding: 0px;
+  margin: 80px 160px 80px 160px;
+}
